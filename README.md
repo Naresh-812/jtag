@@ -212,24 +212,3 @@ TAP (Test Access Port) controller is a **Finite State Machine (FSM)** that contr
 6. Read device ID via TDO
 
 ---
-
-##Interview-Focused Notes
-
-### Q1: Why is BYPASS register only 1-bit?
-
-✔ To reduce delay when the device is not selected in a JTAG chain.
-
-### Q2: Difference between SAMPLE and EXTEST?
-
-* **SAMPLE** → Observe pin values
-* **EXTEST** → Drive pin values externally
-
-### Q3: Why does IR width vary?
-
-✔ Depends on number of supported instructions.
-
-### Q4: Is JTAG synchronous or asynchronous?
-
-✔ Synchronous (driven by TCK).
-
-
